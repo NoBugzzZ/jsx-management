@@ -34,7 +34,6 @@ export default function(props){
     }else if(formData==undefined||formData==null){
       return true
     }else{
-      console.log(typeof(formData))
       return false
     }
   }
@@ -46,7 +45,6 @@ export default function(props){
         <input type="file"
           required={props.required}
           onChange={(event) => processFile(event.target.files).then(data=>{
-            console.log(data)
             props.onChange(data)})} 
         />
         :<>

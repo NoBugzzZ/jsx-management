@@ -67,6 +67,13 @@ export default function NestedList({ open: drawerOpen }) {
           </ListItemLink>
         </List>
       </Collapse>
+
+      <ListItemLink href="/datasheetpage">
+        <ListItemIcon>
+          <DashboardIcon />
+        </ListItemIcon>
+        <ListItemText primary="表格" />
+      </ListItemLink>
     </List>
   );
 }

@@ -47,7 +47,6 @@ export default function(){
           color="primary"
           onClick={()=>{
             Oauth2Req.login(username,password).then(data=>{
-              // console.log(data)
               if(data.accessToken!=undefined){
                 window.sessionStorage.setItem('oauth2Token', JSON.stringify(data));
               }

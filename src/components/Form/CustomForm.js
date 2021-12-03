@@ -42,10 +42,8 @@ export default function (props) {
       formData={props.formData}
       widgets={widgets}
       onChange={(e,err)=>{
-        console.log(e,err)
       }}
       onBlur={(id,value)=>{
-        console.log(id,value)
       }}
     />
   )

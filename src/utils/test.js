@@ -50,5 +50,3 @@ const uischema = {
         "ui:widget": "textarea"
     }
 }
-
-console.log(_.merge(keys2disabled(keys),uischema))
